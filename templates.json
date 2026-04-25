@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "prd",
+      "name": "PRD",
+      "description": "产品需求文档模板",
+      "file": "prd.md",
+      "output_suggestion": "prd.md",
+      "tags": ["product", "requirements", "document"]
+    },
+    {
+      "id": "prototype",
+      "name": "Prototype",
+      "description": "原型说明文档模板",
+      "file": "prototype.md",
+      "output_suggestion": "prototype.md",
+      "tags": ["prototype", "interaction", "document"]
+    }
+  ]
+}
