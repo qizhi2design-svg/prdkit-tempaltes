@@ -12,10 +12,10 @@
     {
       "id": "prototype",
       "name": "Prototype",
-      "description": "原型说明文档模板",
-      "file": "prototype.md",
-      "output_suggestion": "prototype.md",
-      "tags": ["prototype", "interaction", "document"]
+      "description": "交互原型模板（HTML/CSS/JS）",
+      "file": "prototype",
+      "output_suggestion": "prototype",
+      "tags": ["prototype", "interaction", "html"]
     }
   ]
 }
