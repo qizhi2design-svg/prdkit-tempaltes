@@ -1,6 +1,6 @@
 ---
 id: mark-product-guide
-title: PRDKit 使用指南
+title: {{title}} - 使用指南
 element: .title
 position: { x: 50%, y: 15% }
 ---
@@ -10,10 +10,16 @@ position: { x: 50%, y: 15% }
 ## 快速开始
 
 ### 1. 创建原型
-使用此模板快速创建新的产品原型页面：
-- 复制整个 `prototype-template` 目录
-- 重命名为你的原型名称
-- 修改 `index.html` 中的内容
+使用 PRDKit CLI 快速创建新的产品原型：
+```bash
+prdkit create "原型名称" --template prototype
+```
+
+这将创建包含以下文件的完整原型目录：
+- `index.html` - 页面结构
+- `style.css` - 样式定义
+- `script.js` - 交互逻辑
+- `marks/` - 标注文档目录
 
 ### 2. 添加标注
 在 `marks/` 目录下创建 Markdown 文件来标注页面元素：
@@ -42,7 +48,7 @@ prdkit serve
 ## 文件结构说明
 
 ```
-prototype-name/
+{{title}}/
 ├── index.html      # 页面结构
 ├── style.css       # 样式定义
 ├── script.js       # 交互逻辑
