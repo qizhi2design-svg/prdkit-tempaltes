@@ -1,4 +1,12 @@
-# PRD 标题
+---
+title: "{{title}}"
+iteration_id: ""
+creator: "{{creator}}"
+label: "local-md|cli"
+status: "planning"
+---
+
+# {{title}}
 
 ## 1. 背景
 
