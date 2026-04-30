@@ -5,7 +5,9 @@
 ## 文件
 
 - `prd.md`：PRD 模板
-- `prototype.md`：原型说明模板
+- `prototype/`：通用网页原型模板
+- `prototype-mobile/`：移动端原型模板
+- `prototype-admin/`：PC 后台原型模板
 - `templates.json`：模板索引，供后续 CLI 识别可用模板
 
 ## 使用方式

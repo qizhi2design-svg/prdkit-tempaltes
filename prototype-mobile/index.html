@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="phone-shell">
+        <div class="status-bar">
+            <span>9:41</span>
+            <span>5G</span>
+        </div>
+
+        <main class="screen">
+            <section class="hero-card">
+                <p class="eyebrow">移动端验证模板</p>
+                <h1 class="title">{{title}}</h1>
+                <p class="subtitle">用于快速起一个适合 App / H5 的单页原型骨架。</p>
+                <button class="primary-cta" id="heroAction">立即体验</button>
+            </section>
+
+            <section class="module-section">
+                <div class="section-heading">
+                    <h2>关键流程</h2>
+                    <button class="ghost-button" id="toggleTips">查看提示</button>
+                </div>
+                <div class="module-list">
+                    <article class="module-card">
+                        <strong>1. 首屏传达</strong>
+                        <p>先说明用户为什么会继续往下看。</p>
+                    </article>
+                    <article class="module-card">
+                        <strong>2. 核心操作</strong>
+                        <p>把最关键的输入和按钮集中在单手可触达区域。</p>
+                    </article>
+                    <article class="module-card">
+                        <strong>3. 结果反馈</strong>
+                        <p>操作后及时给出状态变化或下一步建议。</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="composer-card">
+                <label class="composer-label" for="mobileInput">输入想验证的场景</label>
+                <div class="composer-row">
+                    <input id="mobileInput" class="composer-input" type="text" placeholder="例如：新用户首次下单">
+                    <button class="secondary-cta" id="submitNote">记录</button>
+                </div>
+                <p class="helper-text" id="helperText">建议一句话写清你的假设。</p>
+            </section>
+        </main>
+
+        <nav class="tab-bar">
+            <button class="tab is-active">首页</button>
+            <button class="tab">流程</button>
+            <button class="tab">我的</button>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

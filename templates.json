@@ -11,11 +11,27 @@
     },
     {
       "id": "prototype",
-      "name": "Prototype",
-      "description": "交互原型模板（HTML/CSS/JS）",
+      "name": "Prototype Web",
+      "description": "通用网页原型模板（HTML/CSS/JS）",
       "file": "prototype",
       "output_suggestion": "prototype",
       "tags": ["prototype", "interaction", "html"]
+    },
+    {
+      "id": "prototype-mobile",
+      "name": "Prototype Mobile",
+      "description": "移动端产品原型模板，适合 App / H5 页面快速起稿",
+      "file": "prototype-mobile",
+      "output_suggestion": "prototype-mobile",
+      "tags": ["prototype", "mobile", "app", "h5"]
+    },
+    {
+      "id": "prototype-admin",
+      "name": "Prototype Admin",
+      "description": "PC 后台原型模板，适合工作台、列表页和管理台场景",
+      "file": "prototype-admin",
+      "output_suggestion": "prototype-admin",
+      "tags": ["prototype", "admin", "dashboard", "desktop"]
     }
   ]
 }
